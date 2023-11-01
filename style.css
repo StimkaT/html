@@ -1,0 +1,15 @@
+.section-title{
+    color:blue;
+    
+}
+.left-col{
+    Float: left;
+    width: 15%;
+}
+.right-col{
+    Float: right;
+    width: 70%;
+}
+footer{
+    clear: both;
+}

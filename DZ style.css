@@ -1,0 +1,22 @@
+.tool{
+ background-color: #f7f6b0;
+}
+table {
+    width: 100%; /* Ширина таблицы в процентах */
+   }
+   .weigth
+    {
+    width: 100px; /* Ширина ячейки */
+   }
+.left-col{
+    Float: left;
+    width: 8%;
+}
+.right-col{
+    Float: right;
+    width: 90%;
+}
+footer{
+    clear: both;
+ background-color: #f7f6b0;
+}
