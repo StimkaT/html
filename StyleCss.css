@@ -1,3 +1,17 @@
-.main.home{
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.mainhome{
+    background-color:rgb(0, 255, 21);
+}
+header {
     background-color:aqua;
+}
+h2 {
+    text-align: center;
+}
+#my-ava {
+    width: 70px;
 }
