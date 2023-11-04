@@ -3,9 +3,10 @@
     padding: 0;
     outline: 0;
     width: 800px;
+    font-family: caviar_dreamsbold, Arial;
 }
-body {
-    min-height: 100%;
+header {
+    height: ;
 }
 aside, .mainhome {
     height: 400px;
@@ -19,34 +20,63 @@ aside, .mainhome {
 header {
     background-color:aqua;
 }
+#top {
+    color: rgba(4, 77, 236, 0.8);
+    text-decoration: none;
+}
+#top:hover {
+    color: rgb(66, 90, 141);    
+}
 h2 {
     text-align: center;
+    color: rgb(40, 8, 185);
+    font-size: 100px;
 }
 #my-ava {
     width: 70px;
-}
-.hyper {
-    width: auto;
-    height: auto;
-    border: black;
-    margin: 10% 5% 0% 5%;
-    background-color: #10c63a;
-    text-align: center;
-}
-.hyper:hover {
-    background-color: #c61010;
-}
-a {
-    color: rgb(102, 0, 255);
-}
-footer {
-    clear: both;    
-    margin:0 auto;
-    height: 30px;
 }
 aside {
     float: left;
     margin: 0px 0px 0px 0px;
     background-color: #10c63a;
     width: 15%;
+}
+.hyper {
+    width: auto;
+    height: auto;
+    margin: 25% 5% 0% 5%;
+    background-color: #2ea54a;
+    text-align: center;
+    font-size: 22px
+}
+.hyper:hover {
+    box-shadow: rgb(255, 0, 0) 0px 0 4px;
+}
+a {
+    color: rgb(255, 255, 255);
+}
+#contacts {
+    color: bisque;
+}
+footer {
+    clear: both;    
+    margin:0 auto;
+    width: 100%;
+    height: auto;
+    background-color: #626d65;
+}
+.footerL {
+    float: left;
+    background-color: #c69b10;
+    width: 15%;
+}
+.footerR {
+    float: left;    
+    width: 85%;
+    height: auto;
+    background-color: #2ea54a;
+    text-align: center;
+}
+.footerR, .footerL {
+    height: 150px;
 }
