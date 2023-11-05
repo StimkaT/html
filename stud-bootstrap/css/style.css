@@ -1,0 +1,37 @@
+/* задаем переменные*/
+:root {
+    --color1:#4ab1bf;
+    --color2:#2095fc;
+}
+header, footer {
+    padding: 20px 0;
+    background: linear-gradient(to right,  #4ab1bf 0%,#7db9e8 100%,#2095fc 100%);
+}
+/*Кнопка сделать заказ*/
+.click1 {
+    background-color: var(--color2);
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    margin: 5px auto;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: white;
+}
+/*Кнопки тулбара*/
+.click0 {
+    background-color: var(--color2);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: white;
+    width: 150px;
+    margin: 0px 4px 0px 0px;
+    font-size: small;
+}
+/*пустая ячейка для выравнивания*/
+.noclick {
+    width: 165px;
+}
+.gray {
+    background-color: #D3D3D3;
+}
